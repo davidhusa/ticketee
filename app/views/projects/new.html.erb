@@ -1,6 +1,9 @@
 <h2>New Project</h2>
 <%= form_for @project do |f| %>
     <p>
+        <%= f.error_messages %>
+    </p>
+    <p>
         <%= f.label :name %><br />
         <%= f.text_field :name %>
     </p>
