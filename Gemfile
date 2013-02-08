@@ -16,6 +16,8 @@ group :test do
     gem 'factory_girl', '2.6.4'
 end
 
+gem 'devise', '2.1.0.rc'
+
 group :production do
   gem 'thin'
   gem 'pg'
