@@ -27,6 +27,7 @@ describe ProjectsController do
       response.should redirect_to(projects_path)
       flash[:alert].should eql("The project you were looking for could not be found.")
     end
+
   end 
 
   it "displays an error for missing projects" do
