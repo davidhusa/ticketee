@@ -17,11 +17,13 @@ group :test do
     gem 'capybara', '1.1.2'
     gem "launchy", "~> 2.2.0"
     gem 'factory_girl', '2.6.4'
+    gem 'database_cleaner', '0.7.2'
 end
 
 gem 'devise', '2.1.0.rc'
 gem 'cancan', '1.6.7'
 gem 'paperclip', '2.7.0'
+gem 'selenium-webdriver','>= 2.5.0'
 
 group :production do
   gem 'thin'
