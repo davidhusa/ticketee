@@ -40,7 +40,6 @@ feature "Viewing tickets" do
     sign_in_as!(admin)
     click_link "TextMate 2"
     click_link "Make it shiny!"
-    puts page.body
     page.should match_exactly(1, 'div#ticket')
   end
 end

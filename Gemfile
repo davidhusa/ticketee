@@ -10,10 +10,12 @@ gem 'email_spec', '1.2.1'
 group :test, :development do
   gem 'sqlite3'
   gem 'rspec-rails', '~> 2.11'
+  gem 'pry-rails'
 end
 
 group :test do
     gem 'capybara', '1.1.2'
+    gem "launchy", "~> 2.2.0"
     gem 'factory_girl', '2.6.4'
 end
 
